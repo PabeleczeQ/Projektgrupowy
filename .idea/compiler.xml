@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Projekt grupowy" />
-        <module name="Projektgrupowy1" />
+        <module name="Projektgrupowy11" />
       </profile>
     </annotationProcessing>
   </component>
