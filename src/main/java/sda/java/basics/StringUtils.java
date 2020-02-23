@@ -4,10 +4,13 @@ import java.util.regex.Pattern;
 
 public class StringUtils {
 
-    String prepareString(String stringToBePrepared) {
+    static String prepareString(String stringToBePrepared) {
 
-        String readystring = stringToBePrepared.replaceAll("\\s\\W" + "." + ",", "").toLowerCase();
-
+        String readystring = stringToBePrepared
+                .replaceAll("[-,.]", "")
+//                .replaceAll(",", "")
+//                .replaceAll("\\.", "")
+                .toLowerCase();
 
         return readystring;
     }

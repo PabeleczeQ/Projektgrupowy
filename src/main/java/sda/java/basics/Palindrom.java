@@ -5,8 +5,7 @@ public class Palindrom {
 
     public static boolean checkPalindrome(String stringToCheck) {
 
-        StringUtils a = new StringUtils();
-        a.prepareString(stringToCheck);
+        stringToCheck = StringUtils.prepareString(stringToCheck);
 
         boolean wart = true;
         char[] chars = stringToCheck.toCharArray();
@@ -17,7 +16,7 @@ public class Palindrom {
 
         }
         return true;
-            }
+    }
 
 }
 
