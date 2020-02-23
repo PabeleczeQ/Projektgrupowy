@@ -7,7 +7,9 @@ public class GITinTEAM {
         System.out.println("Nowa wersja");
         System.out.println("Nara");
         ///---------- kiedyś się uda ------------
-        System.out.println("Palindrom "+Palindrom.checkPalindrome("alaa"));
+
+        StringUtils a = new StringUtils();
+        System.out.println("Palindrom " + Palindrom.checkPalindrome(a.prepareString("A  L.a")));
     }
 
 }
