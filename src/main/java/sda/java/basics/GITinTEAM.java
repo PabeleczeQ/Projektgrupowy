@@ -8,8 +8,8 @@ public class GITinTEAM {
         System.out.println("Nara");
         ///---------- kiedyś się uda ------------
 
-        StringUtils a = new StringUtils();
-        System.out.println("Palindrom " + Palindrom.checkPalindrome(a.prepareString("K a.,jak")));
+        StringUtils stringtogo = new StringUtils();
+        System.out.println("Palindrom " + Palindrom.checkPalindrome(stringtogo.prepareString("K a.,jak")));
         System.out.println("No i się udało!");
     }
 
