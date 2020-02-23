@@ -6,6 +6,7 @@ public class GITinTEAM {
         System.out.println("Siemano Gity");
         System.out.println("Nowa wersja");
         System.out.println("Nara");
+        ///---------- kiedyś się uda ------------
     }
 
 }
