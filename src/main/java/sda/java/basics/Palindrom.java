@@ -3,7 +3,11 @@ package sda.java.basics;
 public class Palindrom {
 
 
-    public static boolean checkPalindrome(String) {
+    public static boolean checkPalindrome(String stringToCheck) {
+
+        StringUtils a = new StringUtils();
+        a.prepareString(stringToCheck);
+
         boolean wart = true;
         char[] chars = stringToCheck.toCharArray();
         for (int i = 0, j = ((chars.length) - 1); i < ((chars.length) - 1) && j > 0; i++, j--) {

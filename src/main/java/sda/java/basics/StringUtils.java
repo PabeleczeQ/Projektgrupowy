@@ -6,7 +6,7 @@ public class StringUtils {
 
     String prepareString(String stringToBePrepared) {
 
-        String readystring = stringToBePrepared.replaceAll("\\s\\W", "").toLowerCase();
+        String readystring = stringToBePrepared.replaceAll("\\s\\W" + "." + ",", "").toLowerCase();
 
 
         return readystring;

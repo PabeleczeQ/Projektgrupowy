@@ -9,7 +9,7 @@ public class GITinTEAM {
         ///---------- kiedyś się uda ------------
 
         StringUtils a = new StringUtils();
-        System.out.println("Palindrom " + Palindrom.checkPalindrome(a.prepareString("A  L.a")));
+        System.out.println("Palindrom " + Palindrom.checkPalindrome(a.prepareString("A  L,aaa")));
     }
 
 }
